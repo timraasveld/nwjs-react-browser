@@ -5,7 +5,8 @@ You need to have npm, webpack and nwjs installed globally.
 ```bash
 git clone https://github.com/timraasveld/nwjs-react-browser.git
 cd nwjs-react-browser.git
-webpack -d && nwjs .
+npm install
+npm run open
 ```
 
 # Contributing
