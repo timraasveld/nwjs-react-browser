@@ -27,6 +27,8 @@ class UrlBar extends Component {
     if(event.key == 'Enter') {
       var url = this.prependProtocolIfMissing(event.target.value)
 
+      event.target.blur()
+
       this.props.onChange(url)
     }
   }
